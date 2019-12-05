@@ -1,0 +1,38 @@
+{
+    "title": "OpenPain placebo_1",
+    "description": "Data added from ftp://openpain.org/placebo_1, see http://openpain.org for more information.",
+    
+    "creators": [
+        {
+            "@type": "Organization",
+            "name": "OpenPain"
+        }
+    ],
+    "types": [
+        { 
+            "value": "MRI"
+        },
+        { 
+            "value": "fMRI"
+        }
+    ],
+    "version": "1.0",
+    "privacy": "Open Access",
+    "isAbout": [
+        {
+            "@type": "BiologicalEntity",
+            "name": "adult human"
+        }
+    ],
+    "extraProperties": [
+        {
+            "category": "Total number of sessions",
+            "values": [
+                {
+                    "value": "876"
+                }
+            ]
+        }
+    ]
+}
+
