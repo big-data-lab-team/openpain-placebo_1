@@ -39,47 +39,45 @@
         }
     ],
     "extraProperties": [
-        {
-            "category": "Total number of sessions",
-            "values": [
-                {
-                    "value": "876"
-                },
-
 	{
-			"category": "contact",
-			"values": [
-				{
-					"value": "A. Vania Apkarian, Director Center for Translational Pain Research, Northwestern University, Feinberg School of Medicine, a-apkarian@northwestern.edu"
-				}
-			]
-		},
-		{
-			"category": "CONP_status",
-			"values": [
-				{
-					"value": "external"
-				}
-			]
-		},
-		{
-			"category": "files",
-			"values": [
-				{
-					"value": "1838"
-				}
-			]
-		},
-		{
-			"category": "logo",
-			"values": [
-				{
-					"value": "OP_Pic1.jpg"
-				}
-			]
-		}
-            ]
-        }
+		"category": "Total number of sessions",
+		"values": [
+			{
+				"value": "876"
+			}
+		]
+	},  
+	{
+		"category": "contact",
+		"values": [
+			{
+				"value": "A. Vania Apkarian, Director Center for Translational Pain Research, Northwestern University, Feinberg School of Medicine, a-apkarian@northwestern.edu"
+			}
+		]
+	},
+	{
+		"category": "CONP_status",
+		"values": [
+			{
+				"value": "external"
+			}
+		]
+	},
+	{
+		"category": "files",
+		"values": [
+			{
+				"value": "1838"
+			}
+		]
+	},
+	{
+		"category": "logo",
+		"values": [
+			{
+				"value": "OP_Pic1.jpg"
+      }
     ]
+  }
+      ]
 }
-
