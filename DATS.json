@@ -57,7 +57,6 @@
     "privacy": "Open Access",
     "isAbout": [
         {
-            "@type": "BiologicalEntity",
             "name": "adult human"
         }
     ],
@@ -69,7 +68,7 @@
 				"value": "876"
 			}
 		]
-	},  
+	},
 	{
 		"category": "contact",
 		"values": [
@@ -83,6 +82,17 @@
 		"values": [
 			{
 				"value": "external"
+			}
+		]
+	},
+	{
+		"category": "origin",
+		"values": [
+			{
+				"institution": "Northwestern University",
+				"city": "Evanston",
+				"province": "Illinois",
+				"country": "USA"
 			}
 		]
 	},
