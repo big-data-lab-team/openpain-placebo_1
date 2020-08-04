@@ -8,7 +8,6 @@
 	],
     "creators": [
         {
-            "@type": "Organization",
             "name": "OpenPain"
         }
     ],
@@ -86,13 +85,34 @@
 		]
 	},
 	{
-		"category": "origin",
+		"category": "origin_institution",
 		"values": [
 			{
-				"institution": "Northwestern University",
-				"city": "Evanston",
-				"province": "Illinois",
-				"country": "USA"
+				"value": "Northwestern University"
+			}
+		]
+	},
+	{
+		"category": "origin_city",
+		"values": [
+			{
+				"value": "Evanston"
+			}
+		]
+	},
+	{
+		"category": "origin_province",
+		"values": [
+			{
+				"value": "Illinois"
+			}
+		]
+	},
+	{
+		"category": "origin_country",
+		"values": [
+			{
+				"value": "USA"
 			}
 		]
 	},
