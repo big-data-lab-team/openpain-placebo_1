@@ -1,20 +1,29 @@
 {
     "title": "OpenPain placebo_1",
     "description": "Data added from ftp://openpain.org/placebo_1, see http://openpain.org for more information.",
-    
+    "licenses": [
+		{
+			"name": "http://openpain.org/generalLicense.html"
+		}
+	],
     "creators": [
         {
-            "@type": "Organization",
             "name": "OpenPain"
         }
     ],
     "types": [
-        { 
-            "value": "MRI"
+        {
+            "information": {
+                "value": "MRI",
+                "valueIRI":"http://purl.bioontology.org/ontology/SNOMEDCT/113091000"
+            }
         },
-        { 
-            "value": "fMRI"
-        }
+        {
+            "information": {
+                "value": "fMRI",
+                "valueIRI":"http://uri.interlex.org/base/ilx_0506130"
+            }
+    	}
     ],
     "distributions": [
 	        {
@@ -26,16 +35,35 @@
             			"value": "GB"
 		        },
 			"access": {
-				"landingPage": "https://www.openpain.org/"
+				"landingPage": "https://www.openpain.org/",
+				"authorizations": [
+					{
+						"value": "public"
+					}
+				]
 			}
 		}
 	],
+	"keywords": [
+		{
+			"value" : "human pain"
+		},
+		{
+			"value" : "brain imaging"
+		}
+	],
     "version": "1.0",
-    "privacy": "Open Access",
+    "privacy": "open",
     "isAbout": [
         {
-            "@type": "BiologicalEntity",
-            "name": "adult human"
+            "identifier": {
+                "identifier": "https://www.ncbi.nlm.nih.gov/taxonomy/9606",
+				"identifierSource": "NCBI Taxonomy Database"
+            },
+            "name":"Homo sapiens"
+        },
+        {
+            "name":"adult"
         }
     ],
     "extraProperties": [
@@ -46,7 +74,7 @@
 				"value": "876"
 			}
 		]
-	},  
+	},
 	{
 		"category": "contact",
 		"values": [
@@ -64,6 +92,46 @@
 		]
 	},
 	{
+		"category": "origin_institution",
+		"values": [
+			{
+				"value": "Northwestern University"
+			}
+		]
+	},
+	{
+		"category": "origin_city",
+		"values": [
+			{
+				"value": "Evanston"
+			}
+		]
+	},
+	{
+		"category": "origin_province",
+		"values": [
+			{
+				"value": "Illinois"
+			}
+		]
+	},
+	{
+		"category": "origin_country",
+		"values": [
+			{
+				"value": "USA"
+			}
+		]
+	},
+	{
+		"category": "subjects",
+		"values": [
+			{
+				"value": "125"
+			}
+		]
+	},
+	{
 		"category": "files",
 		"values": [
 			{
@@ -76,8 +144,8 @@
 		"values": [
 			{
 				"value": "OP_Pic1.jpg"
-      }
+			}
+		]
+	}
     ]
-  }
-      ]
 }
